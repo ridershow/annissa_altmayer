@@ -10750,7 +10750,8 @@ header.masthead h1 {
 }
 
 .kkbb {
-  margin-bottom: 1.5rem;:
+  margin-bottom: 1.5rem;
+  width: 300px;
 }
 
 @media screen and (max-width: 600px) {
