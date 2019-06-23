@@ -10752,3 +10752,12 @@ header.masthead h1 {
 .kkbb {
   margin-bottom: 1.5rem;:
 }
+
+@media screen and (max-width: 600px) {
+  .anissa-logo {
+    width: 75%;
+  }
+  .kkbb {
+    max-width: 50%
+  }
+}
