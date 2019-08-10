@@ -567,6 +567,9 @@ pre code {
   .container {
     max-width: 540px;
   }
+  .video-youtube {
+    max-width: 540px;
+  }
 }
 
 @media (min-width: 768px) {
