@@ -567,17 +567,16 @@ pre code {
   .container {
     max-width: 540px;
   }
-  .container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  .video-youtube {
+    max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
   .container {
+    max-width: 720px;
+  }
+  .video-youtube {
     max-width: 720px;
   }
 }
@@ -586,11 +585,17 @@ pre code {
   .container {
     max-width: 960px;
   }
+  .video-youtube {
+    max-width: 720px;
+  }
 }
 
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
+  }
+  .video-youtube {
+    max-width: 720px;
   }
 }
 
